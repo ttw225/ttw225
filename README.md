@@ -5,7 +5,7 @@
 
 I am a *Python Programmer*, usually developing *backend services*.
 
-My work experience covers *DevOps* like *CI/CD* with automation tools.
+My development experience covers *DevOps* like *CI/CD* with automation tools.
 
 I am also involved in related fields such as *AIoT*, *Blockchain*, and *Security*.
 
