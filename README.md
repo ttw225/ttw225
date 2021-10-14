@@ -9,6 +9,8 @@ My development experience covers *DevOps* like *CI/CD* with automation tools.
 
 I am also involved in related fields such as *AIoT*, *Blockchain*, and *Security*.
 
+<h3 align="left">Profile</h3>
+
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ttw225&label=Profile%20views&color=0e75b6&style=flat" alt="ttw225" /> </p>
 
 <p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=ttw225&rank=SSS,SS,S,AAA,AA,A" alt="ttw225" /></a> </p>
