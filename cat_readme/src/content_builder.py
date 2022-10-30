@@ -78,7 +78,7 @@ class Content:
     def create_issue_link(category: str, name: str) -> str:
         issue_link = (
             f"[{VALID_ACTION[category][name]}]("
-            "https://github.com/ttw225/test/issues/new?"
+            "https://github.com/ttw225/ttw225/issues/new?"
             + urlencode(
                 {
                     "title": f"cat|{category}|{name}",
