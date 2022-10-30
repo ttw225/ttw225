@@ -1,0 +1,46 @@
+[tool]
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.1"
+tag_format = "$version"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint.messages_control]
+# C0111: missing-docstring
+# R0903: too-few-public-methods
+# W0703: broad-except
+# W1203: logging-fstring-interpolation
+# E0611: no-name-in-module
+# E0401: import-error
+# R0913: too-many-arguments
+# R0902: too-many-instance-attributes
+# C0111: Missing method docstring (missing-docstring)
+# W0511: TODO (temporary)
+# E0237: assigning-non-slot
+# E1101: no member
+disable = ["C0111", "R0903", "W0703", "W1203", "E0611", "E0401", "R0913", "R0902", "C0111", "W0511", "E0237", "E1101"]
+
+[tool.pylint.similarities]
+# Minimum lines number of a similarity.
+min-similarity-lines = 15
+
+[tool.pylint.format]
+# Maximum number of characters on a single line.
+max-line-length = 120
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests",
+    "integration",
+]
