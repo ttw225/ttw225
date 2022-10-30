@@ -22,7 +22,7 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 Cat is Sleeping... Zzz
 
-<img src='./assets/image/sleep/Blanket.gif' alt=cat_sleep_Blanket width='320' height='320' />
+<img src='./assets/image/sleep/Sleep_Well.gif' alt=cat_sleep_Sleep_Well width='320' height='320' />
 
 ## Control Panel
 
@@ -38,13 +38,13 @@ Choose your favorite one
 
 | user |
 | :---: |
-|  |
+| ttw225 |
 
 ## Top 20 LeaderBoard: 黑糖's Best Friends
 
 | times | user |
 | :---: | :---: |
-|  |
+| 1 | ttw225 |
 
 
 <!-- output ends -->
