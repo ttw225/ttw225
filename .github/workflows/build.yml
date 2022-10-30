@@ -16,6 +16,9 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+      - name: Record Participants
+        run: |
+          echo ${{ github.event.issue.user.login }} >> cat_readme/participants.txt
       - name: Run Build
         run: |
           python3 cat_readme/src/build_readme.py "${{ github.event.issue.title }}"

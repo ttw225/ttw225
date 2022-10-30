@@ -1,8 +1,9 @@
 import inspect
 import logging
 import pathlib
+from collections import Counter
 from string import Template
-from typing import Dict, List
+from typing import Dict, List, Tuple
 from urllib.parse import urlencode
 
 from config import VALID_ACTION, Action
@@ -19,6 +20,15 @@ Choose your favorite one
 ${control_panel}
 
 ${egg}
+
+## Latest Participants
+
+${latest_participants}
+
+## Top 20 LeaderBoard: 黑糖's Best Friends
+
+${top_participants}
+
 """
 
 
@@ -28,11 +38,14 @@ class Content:
         self.action: Action = action
 
     def build_content(self) -> str:
+        latest_participants, top_participants = self.generate_user_list()
         data: Dict[str, str] = {
             "cat_status": self.generate_status(),
             "cat_img": self.generate_img_path(),
             "control_panel": self.generate_control_panel(),
             "egg": self.generate_egg(),
+            "latest_participants": latest_participants,
+            "top_participants": top_participants,
         }
         return Template(CONTENT_TEMPLATE).substitute(data)
 
@@ -90,5 +103,19 @@ class Content:
         )
         return issue_link
 
-    def generate_user_list(self):
-        return ""
+    def generate_user_list(self) -> Tuple[str, str]:
+        with open("cat_readme/participants.txt", "r", encoding="utf-8") as file:
+            participants: List[str] = file.read().splitlines()
+        user_counter: Counter = Counter(participants)
+        table_new_line_char: str = " |\n\t| "
+        latest_20: str = f"""
+        | user |
+        | :---: |
+        | {table_new_line_char.join(list(user_counter)[:20])} |
+        """
+        top_20: str = f"""
+        | times | user |
+        | :---: | :---: |
+        | {table_new_line_char.join([f"{counts} | {user}" for user, counts in user_counter.most_common()][:20])} |
+        """
+        return (inspect.cleandoc(latest_20), inspect.cleandoc(top_20))
