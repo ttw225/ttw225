@@ -38,13 +38,13 @@ Choose your favorite one
 
 | user |
 | :---: |
-| ttw225 |
+| [ttw225](https://github.com/ttw225) |
 
 ## Top 20 LeaderBoard: 黑糖's Best Friends
 
 | times | user |
 | :---: | :---: |
-| 4 | ttw225 |
+| 4 | [ttw225](https://github.com/ttw225) |
 
 
 <!-- output ends -->
