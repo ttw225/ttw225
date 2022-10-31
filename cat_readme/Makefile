@@ -37,7 +37,7 @@ pylint:
 
 mypy:
 	@echo [Linter] Type Check
-	pipenv run mypy $(PKG)/
+	pipenv run mypy $(PKG)
 
 analysis: bandit ochrona
 
