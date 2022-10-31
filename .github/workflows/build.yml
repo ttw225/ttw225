@@ -70,5 +70,5 @@ jobs:
             --method POST \
             -H "Accept: application/vnd.github+json" \
             ${{ github.event.issue.comments_url }} \
-            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build.yml/badge.svg?event=issues)\
+            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build.yml/badge.svg?event=issues)
             Go Back to the [Project](https://github.com/${{ github.repository }})'
