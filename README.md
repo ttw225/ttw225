@@ -20,9 +20,9 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 <!-- output starts -->
 
-Cat is Playing with Cat Teaser Wand !
+Cat is Eating a Can 😋
 
-<img src='./assets/image/play/Cat_Teaser_Wand.gif' alt=cat_play_Cat_Teaser_Wand width='320' height='320' />
+<img src='./assets/image/eat/Can.gif' alt=cat_eat_Can width='320' height='320' />
 
 ## Control Panel
 
@@ -44,7 +44,7 @@ Choose your favorite one
 
 | times | user |
 | :---: | :---: |
-| 2 | ttw225 |
+| 4 | ttw225 |
 
 
 <!-- output ends -->
