@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./cat_readme
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: "pipenv"
+          cache-dependency-path: cat_readme/Pipfile.lock
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      - name: Install Dependencies
+        run: |
+          pipenv --version
+          pipenv install --deploy --dev
+      - name: flake8
+        run: pipenv run flake8
+      - name: pylint
+        run: pipenv run pylint src
+      - name: mypy
+        run: pipenv run mypy src
+  analysis:
+    name: Analysis
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./cat_readme
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+          cache: "pipenv"
+          cache-dependency-path: cat_readme/Pipfile.lock
+      - name: Install pipenv
+        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
+      - name: Install Dependencies
+        run: |
+          pipenv --version
+          pipenv install --deploy --dev
+      - name: bandit
+        run: pipenv run bandit -r src
+      - name: ochrona
+        run: pipenv run ochrona

@@ -1,6 +1,7 @@
 <h1 align="center">Hi 👋, I'm Peter</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ttw225&label=Profile%20views&color=0e75b6&style=flat" alt="ttw225" /> </p>
+[![Build README](https://github.com/ttw225/ttw225/actions/workflows/build.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/build.yml)
+[![CI](https://github.com/ttw225/ttw225/actions/workflows/ci.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/ci.yml)
 
 <p align="center"> <img src="./images/cswang.jpg" width="200" /> </p>
 
@@ -15,8 +16,6 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 <h1 align="center">BTW, would you like to see my cat do a backflip?</h1>
 
 黑糖 (Black Sugar)
-
-<a href="https://github.com/ttw225/test/actions"><img src="https://github.com/ttw225/test/workflows/Build%20README/badge.svg" align="right" alt="Build README"></a>
 
 <!-- output starts -->
 
