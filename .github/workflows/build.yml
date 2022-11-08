@@ -59,6 +59,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: cat_readme/Dockerfile
           load: true
           tags: test
 
@@ -70,6 +71,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
+          file: cat_readme/Dockerfile
           push: true
           tags: ${{ env.IMAGE_NAME }}:test
 
@@ -78,6 +80,7 @@ jobs:
         if: ${{ github.ref == env.DEVELOP_BRANCH_REF }}
         with:
           context: .
+          file: cat_readme/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ env.IMAGE_NAME }}:dev
@@ -91,6 +94,7 @@ jobs:
         if: ${{ (github.ref == env.RELEASE_BRANCH_REF) && (github.event_name == 'workflow_run') }}
         with:
           context: .
+          file: cat_readme/Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
