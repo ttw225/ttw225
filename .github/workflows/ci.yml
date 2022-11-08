@@ -22,13 +22,13 @@ jobs:
       - name: Install Dependencies
         run: |
           pipenv --version
-          pipenv install --deploy --dev
+          pipenv install --deploy --system --dev
       - name: flake8
-        run: pipenv run flake8
+        run: flake8
       - name: pylint
-        run: pipenv run pylint src
+        run: pylint src
       - name: mypy
-        run: pipenv run mypy src
+        run: mypy src
   analysis:
     name: Analysis
     runs-on: ubuntu-latest
@@ -47,8 +47,8 @@ jobs:
       - name: Install Dependencies
         run: |
           pipenv --version
-          pipenv install --deploy --dev
+          pipenv install --deploy --system --dev
       - name: bandit
-        run: pipenv run bandit -r src
+        run: bandit -r src
       - name: ochrona
-        run: pipenv run ochrona
+        run: ochrona

@@ -1,74 +1,104 @@
-name: Build README
+name: Build Package
 
 on:
-  issues:
-    types: [opened]
+  push:
+  workflow_run:
+    workflows: ["Bump version"]
+    types:
+      - completed
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  RELEASE_BRANCH_REF: "refs/heads/main"
+  DEVELOP_BRANCH_REF: "refs/heads/develop"
 
 jobs:
-  react_issue:
-    name: Issue Reaction
+  build-and-push-image:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'cat|')
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      packages: write
+
     steps:
-      - name: React Emojis
-        run: |
-          declare -a StringArray=("heart" "+1" "rocket")
-          for val in "${StringArray[@]}"; do
-            gh api \
-              --method POST \
-              -H "Accept: application/vnd.github+json" \
-              ${{ github.event.issue.reactions.url }} \
-              -f content=$val
-          done
-      - name: Create Comment with Runner ID
-        run: |
-          gh api \
-            --method POST \
-            -H "Accept: application/vnd.github+json" \
-            ${{ github.event.issue.comments_url }} \
-            -f body='[Building README ...](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})'
-  build_readme:
-    name: Build Readme
-    runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'cat|')
-    steps:
-      - name: Check out repo
+      - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
-      - name: Record Participants
+          fetch-depth: 0
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
+
+      - name: Inspect builder
         run: |
-          echo ${{ github.event.issue.user.login }} >> cat_readme/participants.txt
-      - name: Run Build
+          echo "Name:      ${{ steps.buildx.outputs.name }}"
+          echo "Endpoint:  ${{ steps.buildx.outputs.endpoint }}"
+          echo "Status:    ${{ steps.buildx.outputs.status }}"
+          echo "Flags:     ${{ steps.buildx.outputs.flags }}"
+          echo "Platforms: ${{ steps.buildx.outputs.platforms }}"
+
+      - name: Log in to the Container registry
+        uses: docker/login-action@v2
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: ${{ env.IMAGE_NAME }}
+
+      - name: Build Test and export to Docker
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: cat_readme/Dockerfile
+          load: true
+          tags: test
+
+      - name: Test Docker image
         run: |
-          python3 cat_readme/src/build_readme.py "${{ github.event.issue.title }}"
-          cat README.md
-          cat cat_readme/status.json
-      - name: Commit and push
-        run: |
-          git diff
-          git config --global user.name "README-bot"
-          git config --global user.email "readme-bot@example.com"
-          git add README.md cat_readme/status.json cat_readme/participants.txt
-          git diff --cached --quiet || (git commit -m "(auto) Updated README")
-          git push
-  react_issue_done:
-    name: Issue Comment Done
-    runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, 'cat|')
-    needs: [react_issue, build_readme]
-    env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    steps:
-      - name: Create Comment
-        run: |
-          gh api \
-            --method POST \
-            -H "Accept: application/vnd.github+json" \
-            ${{ github.event.issue.comments_url }} \
-            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build.yml/badge.svg?event=issues)
-            Go Back to the [Project](https://github.com/${{ github.repository }})'
+          docker run --rm test
+
+      - name: Build and push Test to Docker
+        uses: docker/build-push-action@v3
+        with:
+          context: .
+          file: cat_readme/Dockerfile
+          push: true
+          tags: ${{ env.IMAGE_NAME }}:test
+
+      - name: Build and push Develop Docker image
+        uses: docker/build-push-action@v3
+        if: ${{ github.ref == env.DEVELOP_BRANCH_REF }}
+        with:
+          context: .
+          file: cat_readme/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ env.IMAGE_NAME }}:dev
+
+      - name: Get Tag
+        id: vars
+        run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+
+      - name: Build and push Latest Docker image
+        uses: docker/build-push-action@v3
+        if: ${{ (github.ref == env.RELEASE_BRANCH_REF) && (github.event_name == 'workflow_run') }}
+        with:
+          context: .
+          file: cat_readme/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: |
+            ${{ env.IMAGE_NAME }}:latest
+            ${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.tag }}
+            ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}

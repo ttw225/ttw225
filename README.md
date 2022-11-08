@@ -1,7 +1,9 @@
 <h1 align="center">Hi 👋, I'm Peter</h1>
 
-[![Build README](https://github.com/ttw225/ttw225/actions/workflows/build.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/build.yml)
+![Profile Views](https://komarev.com/ghpvc/?username=ttw225&label=Profile+Views&color=0e75b6&style=flat)
+[![Build Package](https://github.com/ttw225/ttw225/actions/workflows/build.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/build.yml)
 [![CI](https://github.com/ttw225/ttw225/actions/workflows/ci.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/ci.yml)
+[![Build README](https://github.com/ttw225/ttw225/actions/workflows/build_readme.yml/badge.svg)](https://github.com/ttw225/ttw225/actions/workflows/build_readme.yml)
 
 <p align="center"> <img src="./images/cswang.jpg" width="200" /> </p>
 
@@ -13,7 +15,7 @@ My development experience covers _DevOps_ like _CI/CD_ with automation tools.
 
 I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security_.
 
-<h1 align="center">BTW, would you like to see my cat do a backflip?</h1>
+<h1 align="center">Would you like to see my cat do a backflip?</h1>
 
 黑糖 (Black Sugar)
 

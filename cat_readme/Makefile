@@ -55,7 +55,7 @@ test:
 ci-bundle: reformat lint analysis
 
 build:
-	docker-compose build
+	docker build . -f cat_readme/Dockerfile -t cat_readme
 
 clean-build:
 	rm -rf build/

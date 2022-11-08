@@ -1,0 +1,74 @@
+name: Build README
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  react_issue:
+    name: Issue Reaction
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'cat|')
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: React Emojis
+        run: |
+          declare -a StringArray=("heart" "+1" "rocket")
+          for val in "${StringArray[@]}"; do
+            gh api \
+              --method POST \
+              -H "Accept: application/vnd.github+json" \
+              ${{ github.event.issue.reactions.url }} \
+              -f content=$val
+          done
+      - name: Create Comment with Runner ID
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            ${{ github.event.issue.comments_url }} \
+            -f body='[Building README ...](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})'
+  build_readme:
+    name: Build Readme
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'cat|')
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Record Participants
+        run: |
+          echo ${{ github.event.issue.user.login }} >> cat_readme/participants.txt
+      - name: Run Build
+        run: |
+          python3 cat_readme/src/build_readme.py "${{ github.event.issue.title }}"
+          cat README.md
+          cat cat_readme/status.json
+      - name: Commit and push
+        run: |
+          git diff
+          git config --global user.name "README-bot"
+          git config --global user.email "readme-bot@example.com"
+          git add README.md cat_readme/status.json cat_readme/participants.txt
+          git diff --cached --quiet || (git commit -m "(auto) Updated README")
+          git push
+  react_issue_done:
+    name: Issue Comment Done
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'cat|')
+    needs: [react_issue, build_readme]
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Create Comment
+        run: |
+          gh api \
+            --method POST \
+            -H "Accept: application/vnd.github+json" \
+            ${{ github.event.issue.comments_url }} \
+            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build.yml/badge.svg?event=issues)
+            Go Back to the [Project](https://github.com/${{ github.repository }})'
