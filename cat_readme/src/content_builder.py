@@ -104,7 +104,7 @@ class Content:
         return issue_link
 
     def generate_user_list(self) -> Tuple[str, str]:
-        with open("cat_readme/participants.txt", "r", encoding="utf-8") as file:
+        with open(self.root / "../participants.txt", "r", encoding="utf-8") as file:
             participants: List[str] = file.read().splitlines()
         user_counter: Counter = Counter(participants)
         table_new_line_char: str = " |\n\t| "
