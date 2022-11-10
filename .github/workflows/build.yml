@@ -87,7 +87,13 @@ jobs:
 
       - name: Get Tag
         id: vars
-        run: echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+        run: |
+          if [ -z "$(git describe --tags --abbrev=0)" ]; then
+            echo "No Tags Found, use 0.0.0"
+            echo "tag=0.0.0" >> $GITHUB_OUTPUT
+          else
+            echo "tag=$(git describe --tags --abbrev=0)" >> $GITHUB_OUTPUT
+          fi
 
       - name: Build and push Latest Docker image
         uses: docker/build-push-action@v3
