@@ -21,9 +21,9 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 <!-- output starts -->
 
-Cat is Playing with Catnip !
+Cat is Eating a Can 😋
 
-<img src='./assets/image/play/Catnip.gif' alt=cat_play_Catnip width='320' height='320' />
+<img src='./assets/image/eat/Can.gif' alt=cat_eat_Can width='320' height='320' />
 
 ## Control Panel
 
@@ -40,12 +40,14 @@ Choose your favorite one
 | user |
 | :---: |
 | [ttw225](https://github.com/ttw225) |
+| [leo271828](https://github.com/leo271828) |
 
 ## Top 20 LeaderBoard: 黑糖's Best Friends
 
 | times | user |
 | :---: | :---: |
 | 6 | [ttw225](https://github.com/ttw225) |
+| 2 | [leo271828](https://github.com/leo271828) |
 
 
 <!-- output ends -->
