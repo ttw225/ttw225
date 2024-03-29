@@ -13,6 +13,8 @@ He is a Backend Engineer with over two years of hands-on experience in developin
 
 His diverse portfolio showcases contributions to cutting-edge projects in AIoT, blockchain, energy management systems, and the application of security best practices.
 
+My [resume](https://lihi.cc/TFrst) and [LinkedIn profile](https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BbRr1vgBBRUCD2dOFW8fosA%3D%3D) are now available for viewing.
+
 <h1 align="center">Would you like to see my cat do a backflip?</h1>
 
 黑糖 (Black Sugar)
