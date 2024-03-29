@@ -9,11 +9,9 @@
 
 <h3 align="center">A software engineer from Taiwan</h3>
 
-I am a _Python Programmer_, usually developing _backend services_, such as RESTful API and scheduler.
+He is a Backend Engineer with over two years of hands-on experience in developing robust RESTFul API services using Flask and PostgreSQL, complemented by practical DevOps automation skills.
 
-My development experience covers _DevOps_ like _CI/CD_ with automation tools.
-
-I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security_.
+His diverse portfolio showcases contributions to cutting-edge projects in AIoT, blockchain, energy management systems, and the application of security best practices.
 
 <h1 align="center">Would you like to see my cat do a backflip?</h1>
 
