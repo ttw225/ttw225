@@ -19,7 +19,7 @@ I'm a
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" />
   </a>
   <a href="https://github.com/ttw225" target="blank">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" width="28" height="28" alt="GitHub" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" height="28" alt="GitHub" />
   </a>
 </p>
 
