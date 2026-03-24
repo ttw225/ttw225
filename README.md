@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Peter
 
-Backend Engineer based in Taiwan, building robust APIs and automating systems.
+Backend Engineer based in Taiwan, writing reliable code to solve real-world problems.
 
 ---
 
