@@ -4,6 +4,10 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  contents: write
+  issues: write
+
 jobs:
   react_issue:
     name: Issue Reaction
@@ -54,7 +58,7 @@ jobs:
           git config --global user.name "README-bot"
           git config --global user.email "readme-bot@example.com"
           git add README.md cat_readme/status.json cat_readme/participants.txt
-          git diff --cached --quiet || (git commit -m "(auto) Updated README")
+          git diff --cached --quiet || (git commit -m "chore(cat): Updated README")
           git push
   react_issue_done:
     name: Issue Comment Done
@@ -70,5 +74,13 @@ jobs:
             --method POST \
             -H "Accept: application/vnd.github+json" \
             ${{ github.event.issue.comments_url }} \
-            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build.yml/badge.svg?event=issues)
+            -f body='![Build README](https://github.com/${{ github.repository }}/actions/workflows/build_readme.yml/badge.svg?event=issues)
+            [View run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
             Go Back to the [Project](https://github.com/${{ github.repository }})'
+      - name: Close Issue
+        run: |
+          gh api \
+            --method PATCH \
+            -H "Accept: application/vnd.github+json" \
+            "${{ github.event.issue.url }}" \
+            -f state=closed
