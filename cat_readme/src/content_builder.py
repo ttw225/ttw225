@@ -143,14 +143,26 @@ class Content:
             participants: List[str] = file.read().splitlines()
         user_counter: Counter = Counter(participants)
         table_new_line_char: str = " |\n\t| "
+        latest_users: str = table_new_line_char.join(
+            [
+                f"[{user_id}](https://github.com/{user_id})"
+                for user_id in list(user_counter)[:20]
+            ]
+        )
         latest_20: str = f"""
         | user |
         | :---: |
-        | {table_new_line_char.join([f"[{user_id}](https://github.com/{user_id})" for user_id in list(user_counter)[:20]])} |
+        | {latest_users} |
         """
+        top_users: str = table_new_line_char.join(
+            [
+                f"{counts} | [{user_id}](https://github.com/{user_id})"
+                for user_id, counts in user_counter.most_common()[:20]
+            ]
+        )
         top_20: str = f"""
         | times | user |
         | :---: | :---: |
-        | {table_new_line_char.join([f"{counts} | [{user_id}](https://github.com/{user_id})" for user_id, counts in user_counter.most_common()[:20]])} |
+        | {top_users} |
         """
         return (inspect.cleandoc(latest_20), inspect.cleandoc(top_20))

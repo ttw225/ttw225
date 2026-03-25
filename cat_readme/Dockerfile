@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.14-slim
 
 # Setting Language Environment Variables
 ENV LC_ALL=C.UTF-8
