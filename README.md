@@ -54,6 +54,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
+1. 🎉 Merged PR [#19](https://github.com/ttw225/ttw225/pull/19) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+2. 💪 Opened PR [#19](https://github.com/ttw225/ttw225/pull/19) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+3. 🔒 Closed issue [#16](https://github.com/ttw225/ttw225/issues/16) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+4. 🔒 Closed issue [#15](https://github.com/ttw225/ttw225/issues/15) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+5. 🔒 Closed issue [#14](https://github.com/ttw225/ttw225/issues/14) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+6. 🔒 Closed issue [#2](https://github.com/ttw225/ttw225/issues/2) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+7. 🔒 Closed issue [#8](https://github.com/ttw225/ttw225/issues/8) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+8. 🔒 Closed issue [#6](https://github.com/ttw225/ttw225/issues/6) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+9. 🔒 Closed issue [#4](https://github.com/ttw225/ttw225/issues/4) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+10. 🔒 Closed issue [#3](https://github.com/ttw225/ttw225/issues/3) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
 <!--END_SECTION:activity-->
 
 ---
