@@ -12,23 +12,24 @@ jobs:
         working-directory: ./cat_readme
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-python@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+          cache-dependency-glob: "cat_readme/uv.lock"
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: "pipenv"
-          cache-dependency-path: cat_readme/Pipfile.lock
-      - name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
       - name: Install Dependencies
-        run: |
-          pipenv --version
-          pipenv install --deploy --system --dev
-      - name: flake8
-        run: flake8
+        run: uv sync --frozen
+      - name: Check lockfile consistency
+        run: uv lock --check
+      - name: ruff
+        run: uv run --frozen ruff check src
       - name: pylint
-        run: pylint src
+        run: uv run --frozen pylint src
       - name: mypy
-        run: mypy src
+        run: uv run --frozen mypy src
   analysis:
     name: Analysis
     runs-on: ubuntu-latest
@@ -37,18 +38,15 @@ jobs:
         working-directory: ./cat_readme
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-python@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          version: "latest"
+          enable-cache: true
+          cache-dependency-glob: "cat_readme/uv.lock"
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-          cache: "pipenv"
-          cache-dependency-path: cat_readme/Pipfile.lock
-      - name: Install pipenv
-        run: curl https://raw.githubusercontent.com/pypa/pipenv/master/get-pipenv.py | python
       - name: Install Dependencies
-        run: |
-          pipenv --version
-          pipenv install --deploy --system --dev
+        run: uv sync --frozen
       - name: bandit
-        run: bandit -r src
-      - name: ochrona
-        run: ochrona
+        run: uv run --frozen bandit -r src
