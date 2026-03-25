@@ -83,7 +83,7 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 Cat is Sleeping... Zzz
 
-<img src='./assets/image/sleep/Sun.gif' alt=cat_sleep_Sun width='240' height='240' />
+<img src='./assets/image/sleep/Angle.gif' alt=cat_sleep_Angle width='240' height='240' />
 
 ## Control Panel
 
@@ -109,7 +109,7 @@ Cat is Sleeping... Zzz
 
 | times | user |
 | :---: | :---: |
-| 7 | [ttw225](https://github.com/ttw225) |
+| 8 | [ttw225](https://github.com/ttw225) |
 | 2 | [leo271828](https://github.com/leo271828) |
 
 
