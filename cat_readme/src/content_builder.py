@@ -57,13 +57,13 @@ class Content:
     def generate_status(self) -> str:
         status: str = ""
         match (self.action.category):
-            case ("sleep"):
+            case "sleep":
                 status = "Sleeping... Zzz"
-            case ("play"):
+            case "play":
                 status = f"Playing with {self.action.name.replace('_', ' ')} !"
-            case ("eat"):
+            case "eat":
                 status = f"Eating a {self.action.name.replace('_', ' ')} 😋"
-            case ("fun"):
+            case "fun":
                 status = "entertaining everyone XD\n\n*(Secret) Someone found this easter egg!!*"
             case _:
                 logging.warning(f"[Generate Status] category: {self.action.category}")
