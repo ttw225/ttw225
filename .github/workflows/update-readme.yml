@@ -7,13 +7,13 @@ on:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
     name: Update README with recent GitHub activity
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       # Pinned to v0.5.0
       - uses: jamesgeorge007/github-activity-readme@4aefbfa1c222d70537dc6a02f0519266aab2b1ea
@@ -22,12 +22,6 @@ jobs:
         with:
           MAX_LINES: 10
           TARGET_FILE: README.md
-
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          commit_message: "chore: update README with recent activity"
-          branch: main
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
+          COMMIT_NAME: github-actions[bot]
+          COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
+          COMMIT_MSG: "chore: update README with recent activity"
