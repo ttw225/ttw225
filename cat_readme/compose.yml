@@ -1,0 +1,10 @@
+services:
+  build-readme:
+    build:
+      context: ..
+      dockerfile: cat_readme/Dockerfile
+    container_name: build-readme
+    image: ghcr.io/ttw225/ttw225:latest
+    volumes:
+      - ../README.md:/README.md
+      - ./status.json:/src/status.json
