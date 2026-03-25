@@ -81,9 +81,11 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <!-- output starts -->
 
-Cat is Eating a Can 😋
+Cat is Sleeping... Zzz
 
-<img src='./assets/image/eat/Can.gif' alt=cat_eat_Can width='240' height='240' />
+<img src='./assets/image/sleep/Sun.gif' alt=cat_sleep_Sun width='240' height='240' />
+
+## Control Panel
 
 ### How to interact
 1. Choose a category: Play, Sleep, or Eat.
@@ -93,6 +95,23 @@ Cat is Eating a Can 😋
 | 🧶 Play | 🌙 Sleep | 🍽️ Eat |
 | :--- | :--- | :--- |
 | [![PLAY 🍀 Catnip](https://img.shields.io/badge/PLAY-%F0%9F%8D%80%20Catnip-8e44ad?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Cplay%7CCatnip&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Play)<br/>[![PLAY 🎣 Cat Teaser Wand](https://img.shields.io/badge/PLAY-%F0%9F%8E%A3%20Cat%20Teaser%20Wand-8e44ad?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Cplay%7CCat_Teaser_Wand&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Play)<br/>[![PLAY 📦 Box](https://img.shields.io/badge/PLAY-%F0%9F%93%A6%20Box-8e44ad?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Cplay%7CBox&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Play) | [![SLEEP 🛌 Sleep Well](https://img.shields.io/badge/SLEEP-%F0%9F%9B%8C%20Sleep%20Well-2c3e50?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Csleep%7CSleep_Well&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Sleep)<br/>[![SLEEP 💫 Angle](https://img.shields.io/badge/SLEEP-%F0%9F%92%AB%20Angle-2c3e50?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Csleep%7CAngle&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Sleep)<br/>[![SLEEP ☀️ Sun](https://img.shields.io/badge/SLEEP-%E2%98%80%EF%B8%8F%20Sun-2c3e50?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Csleep%7CSun&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Sleep)<br/>[![SLEEP 👁️ Blanket](https://img.shields.io/badge/SLEEP-%F0%9F%91%81%EF%B8%8F%20Blanket-2c3e50?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Csleep%7CBlanket&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Sleep) | [![EAT 🥫 Can](https://img.shields.io/badge/EAT-%F0%9F%A5%AB%20Can-16a085?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Ceat%7CCan&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Eat)<br/>[![EAT 🧆 Kibble](https://img.shields.io/badge/EAT-%F0%9F%A7%86%20Kibble-16a085?style=for-the-badge)](https://github.com/ttw225/ttw225/issues/new?title=cat%7Ceat%7CKibble&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Eat) |
+
+<!-- [🎩](https://github.com/ttw225/ttw225/issues/new?title=cat%7Cfun%7Cheadgear&body=Just+push+%27Submit+new+issue%27+and+go+back+to+README.+You+don%27t+need+to+do+anything+else.&labels=Fun) -->
+
+## Latest Participants
+
+| user |
+| :---: |
+| [ttw225](https://github.com/ttw225) |
+| [leo271828](https://github.com/leo271828) |
+
+## Top 20 LeaderBoard: 黑糖's Best Friends
+
+| times | user |
+| :---: | :---: |
+| 7 | [ttw225](https://github.com/ttw225) |
+| 2 | [leo271828](https://github.com/leo271828) |
+
 
 <!-- output ends -->
 
