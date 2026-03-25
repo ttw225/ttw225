@@ -54,16 +54,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. ℹ️ Assigned PR [#30](https://github.com/ttw225/ttw225/pull/30) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-2. 🔒 Closed issue [#31](https://github.com/ttw225/ttw225/issues/31) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-3. ℹ️ Labeled issue [#31](https://github.com/ttw225/ttw225/issues/31) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-4. ❗ Opened issue [#31](https://github.com/ttw225/ttw225/issues/31) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-5. 🎉 Merged PR [#20](https://github.com/ttw225/ttw225/pull/20) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-6. 💪 Opened PR [#20](https://github.com/ttw225/ttw225/pull/20) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-7. 🎉 Merged PR [#19](https://github.com/ttw225/ttw225/pull/19) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-8. 💪 Opened PR [#19](https://github.com/ttw225/ttw225/pull/19) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-9. 🔒 Closed issue [#16](https://github.com/ttw225/ttw225/issues/16) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-10. 🔒 Closed issue [#15](https://github.com/ttw225/ttw225/issues/15) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+1. 🎉 Merged PR [#38](https://github.com/ttw225/ttw225/pull/38) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+2. 💪 Opened PR [#38](https://github.com/ttw225/ttw225/pull/38) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+3. 🎉 Merged PR [#37](https://github.com/ttw225/ttw225/pull/37) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+4. 💪 Opened PR [#37](https://github.com/ttw225/ttw225/pull/37) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+5. 🎉 Merged PR [#36](https://github.com/ttw225/ttw225/pull/36) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+6. 💪 Opened PR [#36](https://github.com/ttw225/ttw225/pull/36) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+7. 🎉 Merged PR [#35](https://github.com/ttw225/ttw225/pull/35) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+8. 💪 Opened PR [#35](https://github.com/ttw225/ttw225/pull/35) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+9. ℹ️ Assigned PR [#30](https://github.com/ttw225/ttw225/pull/30) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+10. 🔒 Closed issue [#31](https://github.com/ttw225/ttw225/issues/31) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
 <!--END_SECTION:activity-->
 
 ---
