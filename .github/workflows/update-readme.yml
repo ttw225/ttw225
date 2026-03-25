@@ -15,7 +15,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: jamesgeorge007/github-activity-readme@master
+      # Pinned to v0.5.0
+      - uses: jamesgeorge007/github-activity-readme@4aefbfa1c222d70537dc6a02f0519266aab2b1ea
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
