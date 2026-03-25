@@ -8,6 +8,8 @@ from urllib.parse import quote, urlencode
 
 from config import VALID_ACTION, Action
 
+CAT_IMAGE_SIZE_PX = 240
+
 CONTENT_TEMPLATE = """
 ${cat_status}
 
@@ -71,7 +73,7 @@ class Content:
         image_md: str = (
             f"<img src='./assets/image/{self.action.category}/{self.action.name}.gif' "
             f"alt=cat_{self.action.category}_{self.action.name} "
-            "width='320' height='320' />"
+            f"width='{CAT_IMAGE_SIZE_PX}' height='{CAT_IMAGE_SIZE_PX}' />"
         )
         return inspect.cleandoc(image_md)
 
