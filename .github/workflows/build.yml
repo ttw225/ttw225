@@ -56,7 +56,7 @@ jobs:
           images: ${{ env.IMAGE_NAME }}
 
       - name: Build Test and export to Docker
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: cat_readme/Dockerfile
@@ -68,7 +68,7 @@ jobs:
           docker run --rm test
 
       - name: Build and push Test to Docker
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         with:
           context: .
           file: cat_readme/Dockerfile
@@ -76,7 +76,7 @@ jobs:
           tags: ${{ env.IMAGE_NAME }}:test
 
       - name: Build and push Develop Docker image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         if: ${{ github.ref == env.DEVELOP_BRANCH_REF }}
         with:
           context: .
@@ -96,7 +96,7 @@ jobs:
           fi
 
       - name: Build and push Latest Docker image
-        uses: docker/build-push-action@v3
+        uses: docker/build-push-action@v7
         if: ${{ (github.ref == env.RELEASE_BRANCH_REF) && (github.event_name == 'workflow_run') }}
         with:
           context: .
