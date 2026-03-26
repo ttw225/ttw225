@@ -12,6 +12,16 @@ My development experience covers _DevOps_ like _CI/CD_ with automation tools.
 
 I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security_.
 
+I am a:
+
+- 🏗️ Backend Engineer (_Flask / FastAPI / PostgreSQL_)
+- 🤖 DevOps automation enthusiast
+- 🎪 [PyCon Taiwan](https://tw.pycon.org/) volunteer
+- 🔐 Security-minded developer
+- 🐈 Cat person
+
+My [resume](https://lihi.cc/TFrst) is also available for viewing.
+
 <h3 align="left">Profile</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ttw225&label=Profile%20views&color=0e75b6&style=flat" alt="ttw225" /> </p>
@@ -20,7 +30,9 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 <p>
     <span>
         <a href="https://www.python.org" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40" style="vertical-align:middle;" /> </a>
-        Python 3.14
+        <a href="https://go.dev/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="go" width="40" height="40" style="vertical-align:middle;" /> </a>
+        <a href="https://isocpp.org/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" style="vertical-align:middle;" /> </a>
+        <a href="https://www.rust-lang.org/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="rust" width="40" height="40" style="vertical-align:middle;" /> </a>
     </span>
 </p>
 
@@ -52,7 +64,7 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
     <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" style="vertical-align:middle;" /> </a>
     <a href="https://travis-ci.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travis-ci" width="40" height="40" style="vertical-align:middle;" /> </a>
     <a href="https://travis-ci.org" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/drone-1.svg" alt="drone" width="40" height="40" style="vertical-align:middle;" /> </a>
-    GitHub Actions, GitLab CI
+    GitHub Actions, GitLab CI, uv, macOS
 </p>
 
 <h4 align="left">Observability</h4>
@@ -74,7 +86,8 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-    <a href="https://linkedin.com/in/chisung-wang" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chisung-wang" height="30" width="40" /> chisung-wang </a>
+    <a href="https://www.linkedin.com/in/chisung-wang/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40" /> chisung-wang </a>
+    <a href="https://github.com/ttw225" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="30" width="40" /> ttw225 </a>
 </p>
 
 <!-- GitHub Badges -->
