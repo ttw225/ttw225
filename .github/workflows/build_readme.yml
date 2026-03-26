@@ -66,7 +66,7 @@ jobs:
           git config --global user.name "README-bot"
           git config --global user.email "readme-bot@example.com"
           git add README.md cat_readme/status.json cat_readme/participants.txt
-          git diff --cached --quiet || (git commit -m "chore(cat): Updated README")
+          git diff --cached --quiet || (git commit -m "auto: Updated README with cat activity")
           git push
   react_issue_done:
     name: Issue Comment Done

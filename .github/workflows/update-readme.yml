@@ -28,4 +28,4 @@ jobs:
           TARGET_FILE: README.md
           COMMIT_NAME: github-actions[bot]
           COMMIT_EMAIL: github-actions[bot]@users.noreply.github.com
-          COMMIT_MSG: "chore: update README with recent activity"
+          COMMIT_MSG: "auto: update README with recent activity"
