@@ -12,7 +12,6 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ghcr.io/${{ github.repository }}
-  RELEASE_BRANCH_REF: "refs/heads/main"
   DEVELOP_BRANCH_REF: "refs/heads/develop"
 
 jobs:
