@@ -12,7 +12,7 @@ on:
 
 jobs:
   analysis:
-    name: Lint + Security + Types
+    name: Lint + Security + Types + Tests
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -22,12 +22,12 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v5
+      - uses: astral-sh/setup-uv@v7
         with:
           version: "latest"
           enable-cache: true
           cache-dependency-glob: "cat_readme/uv.lock"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.14"
       - name: Check lockfile consistency
@@ -42,3 +42,6 @@ jobs:
         run: uv run --frozen mypy src
       - name: bandit
         run: uv run --frozen bandit -r src
+
+      - name: pytest
+        run: uv run --frozen python3 -m pytest -vv --cov-report=term-missing --cov=src tests/
