@@ -1,3 +1,4 @@
+import dataclasses
 import json
 import logging
 import pathlib
@@ -30,9 +31,7 @@ class BuildReadme:
     def check_update(self) -> bool:
         with open(self.status_path, "r", encoding="utf-8") as file:
             status = json.load(file)
-        if status == self.action.__dict__:
-            return False
-        return True
+        return status != dataclasses.asdict(self.action)
 
     def do_action(self) -> str:
         content: Content = Content(ROOT, self.action)
@@ -48,27 +47,31 @@ class BuildReadme:
 
     def write_status(self) -> None:
         with open(self.status_path, "w", encoding="utf-8") as file:
-            json.dump(self.action.__dict__, file)
+            json.dump(dataclasses.asdict(self.action), file)
 
     @staticmethod
     def replace_chunk(content: str, marker: str, chunk: str) -> str:
+        escaped = re.escape(marker)
         readme_regex: re.Pattern = re.compile(
-            r"<!\-\- {marker} starts \-\->.*<!\-\- {marker} ends \-\->".format(marker=marker),
+            rf"<!-- {escaped} starts -->.*<!-- {escaped} ends -->",
             re.DOTALL,
         )
         chunk_with_flag: str = f"<!-- {marker} starts -->\n{chunk}\n<!-- {marker} ends -->"
         return readme_regex.sub(chunk_with_flag, content)
 
 
-if __name__ == "__main__":
-    action: Action
+def parse_argv(argv1: str) -> Action:
+    """Parse the issue title argument into an Action, falling back to a safe default."""
     try:
-        _, category, name = sys.argv[1].split("|")
+        _, category, name = argv1.split("|")
         if name not in VALID_ACTION.get(category, ()):
             raise ValueError("Action Invalid")
-        action = Action(category, name)
-    except Exception as e:
+        return Action(category, name)
+    except (ValueError, IndexError) as e:
         logging.warning(f"[argv parse error] {e}")
-        action = Action("sleep", "sleep_well")
-    readme = BuildReadme(user_action=action)
+        return Action("sleep", "Sleep_Well")
+
+
+if __name__ == "__main__":
+    readme = BuildReadme(user_action=parse_argv(sys.argv[1]))
     readme.update()

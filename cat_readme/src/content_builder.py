@@ -3,7 +3,6 @@ import logging
 import pathlib
 from collections import Counter
 from string import Template
-from typing import Dict, List, Tuple
 from urllib.parse import quote, urlencode
 
 from config import VALID_ACTION, Action
@@ -44,7 +43,7 @@ class Content:
 
     def build_content(self) -> str:
         latest_participants, top_participants = self.generate_user_list()
-        data: Dict[str, str] = {
+        data: dict[str, str] = {
             "cat_status": self.generate_status(),
             "cat_img": self.generate_img_path(),
             "control_panel": self.generate_control_panel(),
@@ -70,24 +69,23 @@ class Content:
         return f"Cat is {status}"
 
     def generate_img_path(self) -> str:
-        image_md: str = (
+        return (
             f"<img src='./assets/image/{self.action.category}/{self.action.name}.gif' "
             f"alt=cat_{self.action.category}_{self.action.name} "
             f"width='{CAT_IMAGE_SIZE_PX}' height='{CAT_IMAGE_SIZE_PX}' />"
         )
-        return inspect.cleandoc(image_md)
 
     def generate_control_panel(self) -> str:
         def readable_name(name: str) -> str:
             return name.replace("_", " ")
 
         def create_button_group(category: str) -> str:
-            category_colors: Dict[str, str] = {
+            category_colors: dict[str, str] = {
                 "play": "8e44ad",
                 "sleep": "2c3e50",
                 "eat": "16a085",
             }
-            buttons: List[str] = [
+            buttons: list[str] = [
                 self.create_issue_link(
                     category,
                     name,
@@ -138,31 +136,21 @@ class Content:
             ")"
         )
 
-    def generate_user_list(self) -> Tuple[str, str]:
+    def generate_user_list(self) -> tuple[str, str]:
         with open(self.root / "../participants.txt", "r", encoding="utf-8") as file:
-            participants: List[str] = file.read().splitlines()
-        user_counter: Counter = Counter(participants)
-        table_new_line_char: str = " |\n\t| "
-        latest_users: str = table_new_line_char.join(
-            [
-                f"[{user_id}](https://github.com/{user_id})"
-                for user_id in list(user_counter)[:20]
-            ]
+            participants: list[str] = file.read().splitlines()
+        user_counter: Counter[str] = Counter(participants)
+
+        def user_link(user_id: str) -> str:
+            return f"[{user_id}](https://github.com/{user_id})"
+
+        latest_rows = "\n".join(f"| {user_link(uid)} |" for uid in list(user_counter)[:20])
+        latest_20 = f"| user |\n| :---: |\n{latest_rows}"
+
+        top_rows = "\n".join(
+            f"| {count} | {user_link(uid)} |"
+            for uid, count in user_counter.most_common()[:20]
         )
-        latest_20: str = f"""
-        | user |
-        | :---: |
-        | {latest_users} |
-        """
-        top_users: str = table_new_line_char.join(
-            [
-                f"{counts} | [{user_id}](https://github.com/{user_id})"
-                for user_id, counts in user_counter.most_common()[:20]
-            ]
-        )
-        top_20: str = f"""
-        | times | user |
-        | :---: | :---: |
-        | {top_users} |
-        """
-        return (inspect.cleandoc(latest_20), inspect.cleandoc(top_20))
+        top_20 = f"| times | user |\n| :---: | :---: |\n{top_rows}"
+
+        return latest_20, top_20

@@ -1,7 +1,6 @@
 from dataclasses import dataclass
-from typing import Dict
 
-VALID_ACTION: Dict[str, Dict[str, str]] = {
+VALID_ACTION: dict[str, dict[str, str]] = {
     "eat": {"Can": "🥫", "Kibble": "🧆"},
     "play": {"Catnip": "🍀", "Cat_Teaser_Wand": "🎣", "Box": "📦"},
     "sleep": {"Sleep_Well": "🛌", "Angle": "💫", "Sun": "☀️", "Blanket": "👁️"},
@@ -11,5 +10,5 @@ VALID_ACTION: Dict[str, Dict[str, str]] = {
 
 @dataclass
 class Action:
-    category: str = ""
-    name: str = ""
+    category: str
+    name: str
