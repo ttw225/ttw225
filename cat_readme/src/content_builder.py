@@ -138,7 +138,8 @@ class Content:
 
     def generate_user_list(self) -> tuple[str, str]:
         with open(self.root / "../participants.txt", "r", encoding="utf-8") as file:
-            participants: list[str] = file.read().splitlines()
+            raw_lines: list[str] = file.read().splitlines()
+            participants: list[str] = [line.strip() for line in raw_lines if line.strip()]
         user_counter: Counter[str] = Counter(participants)
 
         def user_link(user_id: str) -> str:

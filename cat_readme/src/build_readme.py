@@ -53,17 +53,19 @@ class BuildReadme:
     def replace_chunk(content: str, marker: str, chunk: str) -> str:
         escaped = re.escape(marker)
         readme_regex: re.Pattern = re.compile(
-            rf"<!-- {escaped} starts -->.*<!-- {escaped} ends -->",
+            rf"<!-- {escaped} starts -->.*?<!-- {escaped} ends -->",
             re.DOTALL,
         )
         chunk_with_flag: str = f"<!-- {marker} starts -->\n{chunk}\n<!-- {marker} ends -->"
-        return readme_regex.sub(chunk_with_flag, content)
+        return readme_regex.sub(chunk_with_flag, content, count=1)
 
 
 def parse_argv(argv1: str) -> Action:
     """Parse the issue title argument into an Action, falling back to a safe default."""
     try:
-        _, category, name = argv1.split("|")
+        prefix, category, name = argv1.split("|")
+        if prefix != "cat":
+            raise ValueError("Invalid prefix")
         if name not in VALID_ACTION.get(category, ()):
             raise ValueError("Action Invalid")
         return Action(category, name)
