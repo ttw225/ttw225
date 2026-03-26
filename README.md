@@ -19,8 +19,10 @@ I'm a
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" />
   </a>
   <a href="https://github.com/ttw225" target="blank">
-    <img src="https://cdn.simpleicons.org/github/ffffff#gh-dark-mode-only" width="28" height="28" alt="GitHub" />
-    <img src="https://cdn.simpleicons.org/github/181717#gh-light-mode-only" width="28" height="28" alt="GitHub" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff" />
+      <img src="https://cdn.simpleicons.org/github/181717" width="28" height="28" alt="GitHub" />
+    </picture>
   </a>
 </p>
 
