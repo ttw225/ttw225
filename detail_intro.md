@@ -33,8 +33,10 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
         <a href="https://go.dev/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="go" width="40" height="40" style="vertical-align:middle;" /> </a>
         <a href="https://isocpp.org/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" style="vertical-align:middle;" /> </a>
         <a href="https://www.rust-lang.org/" target="_blank">
-            <img src="https://cdn.simpleicons.org/rust/ffffff#gh-dark-mode-only" alt="rust" width="40" height="40" style="vertical-align:middle;" />
-            <img src="https://cdn.simpleicons.org/rust/000000#gh-light-mode-only" alt="rust" width="40" height="40" style="vertical-align:middle;" />
+            <picture>
+                <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/rust/ffffff" />
+                <img src="https://cdn.simpleicons.org/rust/000000" alt="rust" width="40" height="40" style="vertical-align:middle;" />
+            </picture>
         </a>
     </span>
 </p>
@@ -50,8 +52,10 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 <h4 align="left">Framework</h4>
 <p align="left">
     <a href="https://flask.palletsprojects.com/" target="_blank">
-        <img src="https://cdn.simpleicons.org/flask/ffffff#gh-dark-mode-only" alt="flask" width="40" height="40" />
-        <img src="https://cdn.simpleicons.org/flask/000000#gh-light-mode-only" alt="flask" width="40" height="40" />
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/flask/ffffff" />
+            <img src="https://cdn.simpleicons.org/flask/000000" alt="flask" width="40" height="40" />
+        </picture>
     </a>
     <a href="https://fastapi.tiangolo.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40" /> </a>
 </p>
@@ -88,11 +92,13 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-    <a href="https://www.linkedin.com/in/chisung-wang/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40" /> chisung-wang </a>
+    <a href="https://www.linkedin.com/in/chisung-wang/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40" />
+    </a>
     <a href="https://github.com/ttw225" target="blank">
-        <img align="center" src="https://cdn.simpleicons.org/github/ffffff#gh-dark-mode-only" alt="GitHub" height="30" width="40" />
-        <img align="center" src="https://cdn.simpleicons.org/github/181717#gh-light-mode-only" alt="GitHub" height="30" width="40" />
-        ttw225
+        <picture>
+            <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff" />
+            <img align="center" src="https://cdn.simpleicons.org/github/181717" alt="GitHub" height="30" width="40" />
+        </picture>
     </a>
 </p>
 
