@@ -8,6 +8,10 @@ permissions:
   contents: write
   issues: write
 
+concurrency:
+  group: build-readme
+  cancel-in-progress: false
+
 jobs:
   react_issue:
     name: Issue Reaction
@@ -40,8 +44,12 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+          persist-credentials: true
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: "3.14"
       - name: Record Participants
@@ -58,7 +66,7 @@ jobs:
           git config --global user.name "README-bot"
           git config --global user.email "readme-bot@example.com"
           git add README.md cat_readme/status.json cat_readme/participants.txt
-          git diff --cached --quiet || (git commit -m "chore(cat): Updated README")
+          git diff --cached --quiet || (git commit -m "auto: Updated README with cat activity")
           git push
   react_issue_done:
     name: Issue Comment Done

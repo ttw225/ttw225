@@ -19,7 +19,10 @@ I'm a
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="28" height="28" alt="LinkedIn" />
   </a>
   <a href="https://github.com/ttw225" target="blank">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28" height="28" alt="GitHub" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/ffffff" />
+      <img src="https://cdn.simpleicons.org/github/181717" width="28" height="28" alt="GitHub" />
+    </picture>
   </a>
 </p>
 
@@ -34,6 +37,7 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
 **Backend & Data**
 
@@ -70,9 +74,10 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 ## ⭐ GitHub Stats
 
-[![](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&hide_title=true&cache_seconds=86400)](https://github.com/anuraghazra/github-readme-stats)
+[![ttw225's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![ttw225's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
-[![ttw225's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ttw225&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![ttw225's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ttw225&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
@@ -83,7 +88,7 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 Cat is Sleeping... Zzz
 
-<img src='./assets/image/sleep/Angle.gif' alt=cat_sleep_Angle width='240' height='240' />
+<img src='./assets/image/sleep/Sleep_Well.gif' alt=cat_sleep_Sleep_Well width='240' height='240' />
 
 ## Control Panel
 
