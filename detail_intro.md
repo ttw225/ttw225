@@ -32,7 +32,10 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
         <a href="https://www.python.org" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40" style="vertical-align:middle;" /> </a>
         <a href="https://go.dev/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="go" width="40" height="40" style="vertical-align:middle;" /> </a>
         <a href="https://isocpp.org/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40" style="vertical-align:middle;" /> </a>
-        <a href="https://www.rust-lang.org/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" alt="rust" width="40" height="40" style="vertical-align:middle;" /> </a>
+        <a href="https://www.rust-lang.org/" target="_blank">
+            <img src="https://cdn.simpleicons.org/rust/ffffff#gh-dark-mode-only" alt="rust" width="40" height="40" style="vertical-align:middle;" />
+            <img src="https://cdn.simpleicons.org/rust/000000#gh-light-mode-only" alt="rust" width="40" height="40" style="vertical-align:middle;" />
+        </a>
     </span>
 </p>
 
@@ -46,7 +49,10 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <h4 align="left">Framework</h4>
 <p align="left">
-    <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="flask" width="40" height="40" /> </a>
+    <a href="https://flask.palletsprojects.com/" target="_blank">
+        <img src="https://cdn.simpleicons.org/flask/ffffff#gh-dark-mode-only" alt="flask" width="40" height="40" />
+        <img src="https://cdn.simpleicons.org/flask/000000#gh-light-mode-only" alt="flask" width="40" height="40" />
+    </a>
     <a href="https://fastapi.tiangolo.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40" /> </a>
 </p>
 
@@ -60,11 +66,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 <h4 align="left">DevOps & CI/CD</h4>
 <p align="left">
     <a href="https://www.docker.com/" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" style="vertical-align:middle;" /> </a>
-    Docker-compose
     <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" style="vertical-align:middle;" /> </a>
     <a href="https://travis-ci.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/travis-ci/travis-ci-icon.svg" alt="travis-ci" width="40" height="40" style="vertical-align:middle;" /> </a>
     <a href="https://travis-ci.org" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/drone-1.svg" alt="drone" width="40" height="40" style="vertical-align:middle;" /> </a>
-    GitHub Actions, GitLab CI, uv, macOS
 </p>
 
 <h4 align="left">Observability</h4>
@@ -76,18 +80,20 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 <p>
     <span>
         <a href="https://www.raspberrypi.org/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/raspberry-pi.svg" alt="raspberry-pi" width="40" height="40" style="vertical-align:middle;" /> </a>
-        Raspberry Pi (Python)
     </span>
     <span>
         <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40" style="vertical-align:middle;" /> </a>
-        Arduino (C/C++)
     </span>
 </p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
     <a href="https://www.linkedin.com/in/chisung-wang/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="30" width="40" /> chisung-wang </a>
-    <a href="https://github.com/ttw225" target="blank"><img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" height="30" width="40" /> ttw225 </a>
+    <a href="https://github.com/ttw225" target="blank">
+        <img align="center" src="https://cdn.simpleicons.org/github/ffffff#gh-dark-mode-only" alt="GitHub" height="30" width="40" />
+        <img align="center" src="https://cdn.simpleicons.org/github/181717#gh-light-mode-only" alt="GitHub" height="30" width="40" />
+        ttw225
+    </a>
 </p>
 
 <!-- GitHub Badges -->
