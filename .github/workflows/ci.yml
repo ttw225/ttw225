@@ -1,15 +1,25 @@
 name: CI
 
 on:
-  push
+  push:
+    paths:
+      - "cat_readme/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "cat_readme/**"
+      - ".github/workflows/ci.yml"
 
 jobs:
-  lint:
-    name: Lint
+  analysis:
+    name: Lint + Security + Types
     runs-on: ubuntu-latest
     defaults:
       run:
         working-directory: ./cat_readme
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
     steps:
       - uses: actions/checkout@v6
       - uses: astral-sh/setup-uv@v5
@@ -20,33 +30,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.14"
-      - name: Install Dependencies
-        run: uv sync --frozen
       - name: Check lockfile consistency
         run: uv lock --check
+      - name: Install Dependencies
+        run: uv sync --frozen
       - name: ruff
         run: uv run --frozen ruff check src
       - name: pylint
         run: uv run --frozen pylint src
       - name: mypy
         run: uv run --frozen mypy src
-  analysis:
-    name: Analysis
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./cat_readme
-    steps:
-      - uses: actions/checkout@v6
-      - uses: astral-sh/setup-uv@v5
-        with:
-          version: "latest"
-          enable-cache: true
-          cache-dependency-glob: "cat_readme/uv.lock"
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.14"
-      - name: Install Dependencies
-        run: uv sync --frozen
       - name: bandit
         run: uv run --frozen bandit -r src
