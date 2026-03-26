@@ -12,7 +12,7 @@ on:
 
 jobs:
   analysis:
-    name: Lint + Security + Types
+    name: Lint + Security + Types + Tests
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -42,3 +42,6 @@ jobs:
         run: uv run --frozen mypy src
       - name: bandit
         run: uv run --frozen bandit -r src
+
+      - name: pytest
+        run: uv run --frozen python3 -m pytest -vv --cov-report=term-missing --cov=src tests/
