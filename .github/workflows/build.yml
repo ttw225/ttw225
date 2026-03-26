@@ -2,6 +2,8 @@ name: Build Package
 
 on:
   push:
+    branches:
+      - develop
   workflow_run:
     workflows: ["Bump version"]
     types:
@@ -77,7 +79,7 @@ jobs:
 
       - name: Build and push Develop Docker image
         uses: docker/build-push-action@v7
-        if: ${{ github.ref == env.DEVELOP_BRANCH_REF }}
+        if: ${{ github.event_name == 'push' && github.ref == env.DEVELOP_BRANCH_REF }}
         with:
           context: .
           file: cat_readme/Dockerfile
@@ -87,6 +89,7 @@ jobs:
 
       - name: Get Tag
         id: vars
+        if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch == 'main' }}
         run: |
           if [ -z "$(git describe --tags --abbrev=0)" ]; then
             echo "No Tags Found, use 0.0.0"
@@ -97,7 +100,7 @@ jobs:
 
       - name: Build and push Latest Docker image
         uses: docker/build-push-action@v7
-        if: ${{ (github.ref == env.RELEASE_BRANCH_REF) && (github.event_name == 'workflow_run') }}
+        if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_branch == 'main' }}
         with:
           context: .
           file: cat_readme/Dockerfile
