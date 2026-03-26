@@ -16,13 +16,11 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ttw225&label=Profile%20views&color=0e75b6&style=flat" alt="ttw225" /> </p>
 
-<p align="left"> <img src="https://github-profile-trophy.vercel.app/?username=ttw225&rank=SSS,SS,S,AAA,AA,A" alt="ttw225" /></a> </p>
-
 <h3 align="left">Programming Languages:</h3>
 <p>
     <span>
         <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40" style="vertical-align:middle;" /> </a>
-        Python 3.10
+        Python 3.14
     </span>
 </p>
 
@@ -36,7 +34,8 @@ I am also involved in related fields such as _AIoT_, _Blockchain_, and _Security
 
 <h4 align="left">Framework</h4>
 <p align="left">
-    <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40" /> </a>
+    <a href="https://flask.palletsprojects.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40" /> </a>
+    <a href="https://fastapi.tiangolo.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40" /> </a>
 </p>
 
 <h4 align="left">Storage</h4>
