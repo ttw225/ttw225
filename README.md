@@ -71,9 +71,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## ⭐ GitHub Stats
 
 [![ttw225's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![ttw225's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
+[![ttw225's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-light-mode-only)
 
-[![ttw225's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ttw225&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![ttw225's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ttw225&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
