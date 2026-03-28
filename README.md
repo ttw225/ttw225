@@ -86,9 +86,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <!-- output starts -->
 
-Cat is Sleeping... Zzz
+Cat is Eating a Can 😋
 
-<img src='./assets/image/sleep/Sleep_Well.gif' alt=cat_sleep_Sleep_Well width='240' height='240' />
+<img src='./assets/image/eat/Can.gif' alt=cat_eat_Can width='240' height='240' />
 
 ## Control Panel
 
@@ -109,6 +109,7 @@ Cat is Sleeping... Zzz
 | :---: |
 | [ttw225](https://github.com/ttw225) |
 | [leo271828](https://github.com/leo271828) |
+| [TheHCL](https://github.com/TheHCL) |
 
 ## Top 20 LeaderBoard: 黑糖's Best Friends
 
@@ -116,6 +117,7 @@ Cat is Sleeping... Zzz
 | :---: | :---: |
 | 8 | [ttw225](https://github.com/ttw225) |
 | 2 | [leo271828](https://github.com/leo271828) |
+| 1 | [TheHCL](https://github.com/TheHCL) |
 
 
 <!-- output ends -->
