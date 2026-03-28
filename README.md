@@ -86,9 +86,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <!-- output starts -->
 
-Cat is Eating a Can 😋
+Cat is Eating a Kibble 😋
 
-<img src='./assets/image/eat/Can.gif' alt=cat_eat_Can width='240' height='240' />
+<img src='./assets/image/eat/Kibble.gif' alt=cat_eat_Kibble width='240' height='240' />
 
 ## Control Panel
 
@@ -117,7 +117,7 @@ Cat is Eating a Can 😋
 | :---: | :---: |
 | 8 | [ttw225](https://github.com/ttw225) |
 | 2 | [leo271828](https://github.com/leo271828) |
-| 1 | [TheHCL](https://github.com/TheHCL) |
+| 2 | [TheHCL](https://github.com/TheHCL) |
 
 
 <!-- output ends -->
