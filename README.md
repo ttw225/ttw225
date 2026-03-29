@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. ℹ️ Labeled issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
-2. ❗ Opened issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
-3. 🎉 Merged PR [#43](https://github.com/ttw225/ttw225/pull/43) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-4. 💪 Opened PR [#43](https://github.com/ttw225/ttw225/pull/43) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-5. 🎉 Merged PR [#42](https://github.com/ttw225/ttw225/pull/42) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-6. 💪 Opened PR [#42](https://github.com/ttw225/ttw225/pull/42) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-7. 🎉 Merged PR [#41](https://github.com/ttw225/ttw225/pull/41) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-8. 💪 Opened PR [#41](https://github.com/ttw225/ttw225/pull/41) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-9. 🎉 Merged PR [#40](https://github.com/ttw225/ttw225/pull/40) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
-10. 💪 Opened PR [#40](https://github.com/ttw225/ttw225/pull/40) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+1. 💪 Opened PR [#726](https://github.com/pycontw/pycontw-frontend/pull/726) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
+2. ℹ️ Labeled issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
+3. ❗ Opened issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
+4. 🎉 Merged PR [#43](https://github.com/ttw225/ttw225/pull/43) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+5. 💪 Opened PR [#43](https://github.com/ttw225/ttw225/pull/43) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+6. 🎉 Merged PR [#42](https://github.com/ttw225/ttw225/pull/42) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+7. 💪 Opened PR [#42](https://github.com/ttw225/ttw225/pull/42) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+8. 🎉 Merged PR [#41](https://github.com/ttw225/ttw225/pull/41) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+9. 💪 Opened PR [#41](https://github.com/ttw225/ttw225/pull/41) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+10. 🎉 Merged PR [#40](https://github.com/ttw225/ttw225/pull/40) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
 <!--END_SECTION:activity-->
 
 ---
