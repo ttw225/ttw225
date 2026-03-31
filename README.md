@@ -86,9 +86,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <!-- output starts -->
 
-Cat is Eating a Kibble 😋
+Cat is Sleeping... Zzz
 
-<img src='./assets/image/eat/Kibble.gif' alt=cat_eat_Kibble width='240' height='240' />
+<img src='./assets/image/sleep/Angle.gif' alt=cat_sleep_Angle width='240' height='240' />
 
 ## Control Panel
 
@@ -116,8 +116,8 @@ Cat is Eating a Kibble 😋
 | times | user |
 | :---: | :---: |
 | 8 | [ttw225](https://github.com/ttw225) |
+| 3 | [TheHCL](https://github.com/TheHCL) |
 | 2 | [leo271828](https://github.com/leo271828) |
-| 2 | [TheHCL](https://github.com/TheHCL) |
 
 
 <!-- output ends -->
