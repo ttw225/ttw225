@@ -86,9 +86,9 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 <!-- output starts -->
 
-Cat is Sleeping... Zzz
+Cat is Playing with Cat Teaser Wand !
 
-<img src='./assets/image/sleep/Angle.gif' alt=cat_sleep_Angle width='240' height='240' />
+<img src='./assets/image/play/Cat_Teaser_Wand.gif' alt=cat_play_Cat_Teaser_Wand width='240' height='240' />
 
 ## Control Panel
 
@@ -116,7 +116,7 @@ Cat is Sleeping... Zzz
 | times | user |
 | :---: | :---: |
 | 8 | [ttw225](https://github.com/ttw225) |
-| 3 | [TheHCL](https://github.com/TheHCL) |
+| 4 | [TheHCL](https://github.com/TheHCL) |
 | 2 | [leo271828](https://github.com/leo271828) |
 
 
