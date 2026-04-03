@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/ttw225/blog/pull/1) in [ttw225/blog](https://github.com/ttw225/blog)
-2. 💪 Opened PR [#1](https://github.com/ttw225/blog/pull/1) in [ttw225/blog](https://github.com/ttw225/blog)
-3. 🗣 Commented on [#1922](https://github.com/commitizen-tools/commitizen/issues/1922#issuecomment-4181595422) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
-4. 🗣 Commented on [#1921](https://github.com/commitizen-tools/commitizen/issues/1921#issuecomment-4175712036) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
-5. 🎉 Merged PR [#208](https://github.com/pycontw/pycontw-blog/pull/208) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-6. 💪 Opened PR [#208](https://github.com/pycontw/pycontw-blog/pull/208) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-7. 🎉 Merged PR [#726](https://github.com/pycontw/pycontw-frontend/pull/726) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
-8. 💪 Opened PR [#726](https://github.com/pycontw/pycontw-frontend/pull/726) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
-9. ℹ️ Labeled issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
-10. ❗ Opened issue [#725](https://github.com/pycontw/pycontw-frontend/issues/725) in [pycontw/pycontw-frontend](https://github.com/pycontw/pycontw-frontend)
+1. 🎉 Merged PR [#3](https://github.com/ttw225/blog/pull/3) in [ttw225/blog](https://github.com/ttw225/blog)
+2. 💪 Opened PR [#3](https://github.com/ttw225/blog/pull/3) in [ttw225/blog](https://github.com/ttw225/blog)
+3. 🎉 Merged PR [#2](https://github.com/ttw225/blog/pull/2) in [ttw225/blog](https://github.com/ttw225/blog)
+4. 💪 Opened PR [#2](https://github.com/ttw225/blog/pull/2) in [ttw225/blog](https://github.com/ttw225/blog)
+5. 🎉 Merged PR [#1](https://github.com/ttw225/blog/pull/1) in [ttw225/blog](https://github.com/ttw225/blog)
+6. 💪 Opened PR [#1](https://github.com/ttw225/blog/pull/1) in [ttw225/blog](https://github.com/ttw225/blog)
+7. 🗣 Commented on [#1922](https://github.com/commitizen-tools/commitizen/issues/1922#issuecomment-4181595422) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
+8. 🗣 Commented on [#1921](https://github.com/commitizen-tools/commitizen/issues/1921#issuecomment-4175712036) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
+9. 🎉 Merged PR [#208](https://github.com/pycontw/pycontw-blog/pull/208) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+10. 💪 Opened PR [#208](https://github.com/pycontw/pycontw-blog/pull/208) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
 <!--END_SECTION:activity-->
 
 ---
