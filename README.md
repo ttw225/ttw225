@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#7](https://github.com/ttw225/blog/pull/7) in [ttw225/blog](https://github.com/ttw225/blog)
-2. 💪 Opened PR [#7](https://github.com/ttw225/blog/pull/7) in [ttw225/blog](https://github.com/ttw225/blog)
-3. 🎉 Merged PR [#6](https://github.com/ttw225/blog/pull/6) in [ttw225/blog](https://github.com/ttw225/blog)
-4. 💪 Opened PR [#6](https://github.com/ttw225/blog/pull/6) in [ttw225/blog](https://github.com/ttw225/blog)
-5. 🎉 Merged PR [#5](https://github.com/ttw225/blog/pull/5) in [ttw225/blog](https://github.com/ttw225/blog)
-6. 💪 Opened PR [#5](https://github.com/ttw225/blog/pull/5) in [ttw225/blog](https://github.com/ttw225/blog)
-7. 🎉 Merged PR [#4](https://github.com/ttw225/blog/pull/4) in [ttw225/blog](https://github.com/ttw225/blog)
-8. 💪 Opened PR [#4](https://github.com/ttw225/blog/pull/4) in [ttw225/blog](https://github.com/ttw225/blog)
-9. 🎉 Merged PR [#3](https://github.com/ttw225/blog/pull/3) in [ttw225/blog](https://github.com/ttw225/blog)
-10. 💪 Opened PR [#3](https://github.com/ttw225/blog/pull/3) in [ttw225/blog](https://github.com/ttw225/blog)
+1. 🎉 Merged PR [#8](https://github.com/ttw225/blog/pull/8) in [ttw225/blog](https://github.com/ttw225/blog)
+2. 💪 Opened PR [#8](https://github.com/ttw225/blog/pull/8) in [ttw225/blog](https://github.com/ttw225/blog)
+3. 🎉 Merged PR [#7](https://github.com/ttw225/blog/pull/7) in [ttw225/blog](https://github.com/ttw225/blog)
+4. 💪 Opened PR [#7](https://github.com/ttw225/blog/pull/7) in [ttw225/blog](https://github.com/ttw225/blog)
+5. 🎉 Merged PR [#6](https://github.com/ttw225/blog/pull/6) in [ttw225/blog](https://github.com/ttw225/blog)
+6. 💪 Opened PR [#6](https://github.com/ttw225/blog/pull/6) in [ttw225/blog](https://github.com/ttw225/blog)
+7. 🎉 Merged PR [#5](https://github.com/ttw225/blog/pull/5) in [ttw225/blog](https://github.com/ttw225/blog)
+8. 💪 Opened PR [#5](https://github.com/ttw225/blog/pull/5) in [ttw225/blog](https://github.com/ttw225/blog)
+9. 🎉 Merged PR [#4](https://github.com/ttw225/blog/pull/4) in [ttw225/blog](https://github.com/ttw225/blog)
+10. 💪 Opened PR [#4](https://github.com/ttw225/blog/pull/4) in [ttw225/blog](https://github.com/ttw225/blog)
 <!--END_SECTION:activity-->
 
 ---
