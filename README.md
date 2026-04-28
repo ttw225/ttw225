@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-2. 💪 Opened PR [#12](https://github.com/ttw225/blog/pull/12) in [ttw225/blog](https://github.com/ttw225/blog)
-3. 🎉 Merged PR [#11](https://github.com/ttw225/blog/pull/11) in [ttw225/blog](https://github.com/ttw225/blog)
-4. 🎉 Merged PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-5. 💪 Opened PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-6. 💪 Opened PR [#11](https://github.com/ttw225/blog/pull/11) in [ttw225/blog](https://github.com/ttw225/blog)
-7. 🎉 Merged PR [#1906](https://github.com/commitizen-tools/commitizen/pull/1906) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
-8. 🎉 Merged PR [#10](https://github.com/ttw225/blog/pull/10) in [ttw225/blog](https://github.com/ttw225/blog)
-9. 💪 Opened PR [#10](https://github.com/ttw225/blog/pull/10) in [ttw225/blog](https://github.com/ttw225/blog)
-10. 🎉 Merged PR [#215](https://github.com/pycontw/pycontw-blog/pull/215) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+1. 🎉 Merged PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+2. 💪 Opened PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+3. 💪 Opened PR [#12](https://github.com/ttw225/blog/pull/12) in [ttw225/blog](https://github.com/ttw225/blog)
+4. 🎉 Merged PR [#11](https://github.com/ttw225/blog/pull/11) in [ttw225/blog](https://github.com/ttw225/blog)
+5. 🎉 Merged PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+6. 💪 Opened PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+7. 💪 Opened PR [#11](https://github.com/ttw225/blog/pull/11) in [ttw225/blog](https://github.com/ttw225/blog)
+8. 🎉 Merged PR [#1906](https://github.com/commitizen-tools/commitizen/pull/1906) in [commitizen-tools/commitizen](https://github.com/commitizen-tools/commitizen)
+9. 🎉 Merged PR [#10](https://github.com/ttw225/blog/pull/10) in [ttw225/blog](https://github.com/ttw225/blog)
+10. 💪 Opened PR [#10](https://github.com/ttw225/blog/pull/10) in [ttw225/blog](https://github.com/ttw225/blog)
 <!--END_SECTION:activity-->
 
 ---
