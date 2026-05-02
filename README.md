@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/ttw225/TaiwanTaxCalculator/pull/2) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-2. 💪 Opened PR [#2](https://github.com/ttw225/TaiwanTaxCalculator/pull/2) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-3. 🗣 Commented on [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1#issuecomment-4363099502) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-4. 🔒 Closed issue [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-5. ❗ Opened issue [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-6. 🎉 Merged PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-7. ❗ Opened issue [#219](https://github.com/pycontw/pycontw-blog/issues/219) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-8. 🗣 Commented on [#218](https://github.com/pycontw/pycontw-blog/pull/218#issuecomment-4340393409) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-9. 💪 Opened PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-10. 🎉 Merged PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+1. ℹ️ Assigned issue [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+2. 🎉 Merged PR [#5](https://github.com/ttw225/TaiwanTaxCalculator/pull/5) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+3. 💪 Opened PR [#5](https://github.com/ttw225/TaiwanTaxCalculator/pull/5) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+4. ❌ Closed PR [#4](https://github.com/ttw225/TaiwanTaxCalculator/pull/4) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+5. 💪 Opened PR [#4](https://github.com/ttw225/TaiwanTaxCalculator/pull/4) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+6. 🎉 Merged PR [#3](https://github.com/ttw225/TaiwanTaxCalculator/pull/3) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+7. ℹ️ Assigned PR [#3](https://github.com/ttw225/TaiwanTaxCalculator/pull/3) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+8. 💪 Opened PR [#3](https://github.com/ttw225/TaiwanTaxCalculator/pull/3) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+9. 🎉 Merged PR [#2](https://github.com/ttw225/TaiwanTaxCalculator/pull/2) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+10. 💪 Opened PR [#2](https://github.com/ttw225/TaiwanTaxCalculator/pull/2) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
 <!--END_SECTION:activity-->
 
 ---
