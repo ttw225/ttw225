@@ -58,16 +58,16 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-2. ❗ Opened issue [#219](https://github.com/pycontw/pycontw-blog/issues/219) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-3. 🗣 Commented on [#218](https://github.com/pycontw/pycontw-blog/pull/218#issuecomment-4340393409) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-4. 💪 Opened PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-5. 🎉 Merged PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-6. 💪 Opened PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-7. 💪 Opened PR [#12](https://github.com/ttw225/blog/pull/12) in [ttw225/blog](https://github.com/ttw225/blog)
-8. 🎉 Merged PR [#11](https://github.com/ttw225/blog/pull/11) in [ttw225/blog](https://github.com/ttw225/blog)
-9. 🎉 Merged PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-10. 💪 Opened PR [#216](https://github.com/pycontw/pycontw-blog/pull/216) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+1. 🗣 Commented on [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1#issuecomment-4363099502) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+2. 🔒 Closed issue [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+3. ❗ Opened issue [#1](https://github.com/ttw225/TaiwanTaxCalculator/issues/1) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+4. 🎉 Merged PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+5. ❗ Opened issue [#219](https://github.com/pycontw/pycontw-blog/issues/219) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+6. 🗣 Commented on [#218](https://github.com/pycontw/pycontw-blog/pull/218#issuecomment-4340393409) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+7. 💪 Opened PR [#218](https://github.com/pycontw/pycontw-blog/pull/218) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+8. 🎉 Merged PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+9. 💪 Opened PR [#217](https://github.com/pycontw/pycontw-blog/pull/217) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+10. 💪 Opened PR [#12](https://github.com/ttw225/blog/pull/12) in [ttw225/blog](https://github.com/ttw225/blog)
 <!--END_SECTION:activity-->
 
 ---
