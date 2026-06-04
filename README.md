@@ -26,7 +26,20 @@ I'm a
   </a>
 </p>
 
-My [resume](https://lihi.cc/TFrst) is also available for viewing.
+[![Resume](https://img.shields.io/badge/📄_Resume-View-0e75b6?style=for-the-badge)](https://lihi.cc/TFrst)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chisung-wang/)
+
+---
+
+## 🚀 Featured Project
+
+### [Taiwan Tax Calculator](https://TaiwanTaxCalculator.com)
+
+An open-source web app for exploring Taiwan individual income tax filing decisions and checklists — helping people understand their tax options before filing.
+
+[![Website](https://img.shields.io/badge/Live-TaiwanTaxCalculator.com-009688?style=for-the-badge&logo=googlechrome&logoColor=white)](https://TaiwanTaxCalculator.com)
+[![Repo](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ttw225/TaiwanTaxCalculator)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ---
 
@@ -52,18 +65,6 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 ![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
 ![macOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## 🚀 Featured Project
-
-### [Taiwan Tax Calculator](https://TaiwanTaxCalculator.com)
-
-An open-source web app for exploring Taiwan individual income tax filing decisions and checklists — helping people understand their tax options before filing.
-
-[![Website](https://img.shields.io/badge/Live-TaiwanTaxCalculator.com-009688?style=for-the-badge&logo=googlechrome&logoColor=white)](https://TaiwanTaxCalculator.com)
-[![Repo](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ttw225/TaiwanTaxCalculator)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
 ---
 
