@@ -55,6 +55,18 @@ My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
 ---
 
+## 🚀 Featured Project
+
+### [Taiwan Tax Calculator](https://TaiwanTaxCalculator.com)
+
+An open-source web app for exploring Taiwan individual income tax filing decisions and checklists — helping people understand their tax options before filing.
+
+[![Website](https://img.shields.io/badge/Live-TaiwanTaxCalculator.com-009688?style=for-the-badge&logo=googlechrome&logoColor=white)](https://TaiwanTaxCalculator.com)
+[![Repo](https://img.shields.io/badge/Source-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ttw225/TaiwanTaxCalculator)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+---
+
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->

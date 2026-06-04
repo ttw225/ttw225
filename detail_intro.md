@@ -22,6 +22,10 @@ I am a:
 
 My [resume](https://lihi.cc/TFrst) is also available for viewing.
 
+<h3 align="left">Featured Project</h3>
+
+🚀 [**Taiwan Tax Calculator**](https://TaiwanTaxCalculator.com) — an open-source web app for exploring Taiwan individual income tax filing decisions and checklists. [Live site](https://TaiwanTaxCalculator.com) · [Source code](https://github.com/ttw225/TaiwanTaxCalculator)
+
 <h3 align="left">Profile</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ttw225&label=Profile%20views&color=0e75b6&style=flat" alt="ttw225" /> </p>
