@@ -71,16 +71,16 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2516](https://github.com/c9s/bbgo/pull/2516) in [c9s/bbgo](https://github.com/c9s/bbgo)
-2. 💪 Opened PR [#2516](https://github.com/c9s/bbgo/pull/2516) in [c9s/bbgo](https://github.com/c9s/bbgo)
-3. 💪 Opened PR [#2363](https://github.com/Canner/WrenAI/pull/2363) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-4. 🎉 Merged PR [#2359](https://github.com/Canner/WrenAI/pull/2359) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-5. 🎉 Merged PR [#15](https://github.com/ttw225/blog/pull/15) in [ttw225/blog](https://github.com/ttw225/blog)
-6. 💪 Opened PR [#15](https://github.com/ttw225/blog/pull/15) in [ttw225/blog](https://github.com/ttw225/blog)
-7. 🎉 Merged PR [#2358](https://github.com/Canner/WrenAI/pull/2358) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-8. 🎉 Merged PR [#14](https://github.com/ttw225/blog/pull/14) in [ttw225/blog](https://github.com/ttw225/blog)
-9. 💪 Opened PR [#14](https://github.com/ttw225/blog/pull/14) in [ttw225/blog](https://github.com/ttw225/blog)
-10. 💪 Opened PR [#2359](https://github.com/Canner/WrenAI/pull/2359) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+1. 🎉 Merged PR [#2363](https://github.com/Canner/WrenAI/pull/2363) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+2. 🎉 Merged PR [#16](https://github.com/ttw225/blog/pull/16) in [ttw225/blog](https://github.com/ttw225/blog)
+3. 💪 Opened PR [#16](https://github.com/ttw225/blog/pull/16) in [ttw225/blog](https://github.com/ttw225/blog)
+4. 🎉 Merged PR [#2516](https://github.com/c9s/bbgo/pull/2516) in [c9s/bbgo](https://github.com/c9s/bbgo)
+5. 💪 Opened PR [#2516](https://github.com/c9s/bbgo/pull/2516) in [c9s/bbgo](https://github.com/c9s/bbgo)
+6. 💪 Opened PR [#2363](https://github.com/Canner/WrenAI/pull/2363) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+7. 🎉 Merged PR [#2359](https://github.com/Canner/WrenAI/pull/2359) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+8. 🎉 Merged PR [#15](https://github.com/ttw225/blog/pull/15) in [ttw225/blog](https://github.com/ttw225/blog)
+9. 💪 Opened PR [#15](https://github.com/ttw225/blog/pull/15) in [ttw225/blog](https://github.com/ttw225/blog)
+10. 🎉 Merged PR [#2358](https://github.com/Canner/WrenAI/pull/2358) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
 <!--END_SECTION:activity-->
 
 ---
