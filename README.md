@@ -71,16 +71,16 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2432](https://github.com/Canner/WrenAI/pull/2432) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-2. 💪 Opened PR [#2431](https://github.com/Canner/WrenAI/pull/2431) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-3. 🎉 Merged PR [#2425](https://github.com/Canner/WrenAI/pull/2425) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-4. 💪 Opened PR [#2425](https://github.com/Canner/WrenAI/pull/2425) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-5. 💪 Opened PR [#119](https://github.com/ttw225/TaiwanTaxCalculator/pull/119) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-6. 💪 Opened PR [#118](https://github.com/ttw225/TaiwanTaxCalculator/pull/118) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-7. 💪 Opened PR [#18](https://github.com/ttw225/blog/pull/18) in [ttw225/blog](https://github.com/ttw225/blog)
-8. 💪 Opened PR [#17](https://github.com/ttw225/blog/pull/17) in [ttw225/blog](https://github.com/ttw225/blog)
-9. 🎉 Merged PR [#119](https://github.com/ttw225/TaiwanTaxCalculator/pull/119) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-10. 💪 Opened PR [#2375](https://github.com/Canner/WrenAI/pull/2375) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+1. 🎉 Merged PR [#2431](https://github.com/Canner/WrenAI/pull/2431) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+2. 🎉 Merged PR [#2432](https://github.com/Canner/WrenAI/pull/2432) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+3. 💪 Opened PR [#2432](https://github.com/Canner/WrenAI/pull/2432) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+4. 💪 Opened PR [#2431](https://github.com/Canner/WrenAI/pull/2431) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+5. 🎉 Merged PR [#2425](https://github.com/Canner/WrenAI/pull/2425) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+6. 💪 Opened PR [#2425](https://github.com/Canner/WrenAI/pull/2425) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+7. 💪 Opened PR [#119](https://github.com/ttw225/TaiwanTaxCalculator/pull/119) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+8. 💪 Opened PR [#118](https://github.com/ttw225/TaiwanTaxCalculator/pull/118) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+9. 💪 Opened PR [#18](https://github.com/ttw225/blog/pull/18) in [ttw225/blog](https://github.com/ttw225/blog)
+10. 💪 Opened PR [#17](https://github.com/ttw225/blog/pull/17) in [ttw225/blog](https://github.com/ttw225/blog)
 <!--END_SECTION:activity-->
 
 ---
