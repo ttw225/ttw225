@@ -71,16 +71,16 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2519](https://github.com/Canner/WrenAI/pull/2519) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-2. 🎉 Merged PR [#2513](https://github.com/Canner/WrenAI/pull/2513) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-3. 🎉 Merged PR [#2510](https://github.com/Canner/WrenAI/pull/2510) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-4. 💪 Opened PR [#2520](https://github.com/Canner/WrenAI/pull/2520) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-5. 🗣 Commented on [#2518](https://github.com/Canner/WrenAI/issues/2518#issuecomment-4990639278) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-6. 💪 Opened PR [#2519](https://github.com/Canner/WrenAI/pull/2519) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-7. ❗ Opened issue [#2518](https://github.com/Canner/WrenAI/issues/2518) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-8. 💪 Opened PR [#2513](https://github.com/Canner/WrenAI/pull/2513) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-9. 🎉 Merged PR [#2502](https://github.com/Canner/WrenAI/pull/2502) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-10. 🎉 Merged PR [#2500](https://github.com/Canner/WrenAI/pull/2500) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+1. 🗣 Commented on [#2504](https://github.com/Canner/WrenAI/issues/2504#issuecomment-5043937931) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+2. 🎉 Merged PR [#2519](https://github.com/Canner/WrenAI/pull/2519) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+3. 🎉 Merged PR [#2513](https://github.com/Canner/WrenAI/pull/2513) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+4. 🎉 Merged PR [#2510](https://github.com/Canner/WrenAI/pull/2510) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+5. 💪 Opened PR [#2520](https://github.com/Canner/WrenAI/pull/2520) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+6. 🗣 Commented on [#2518](https://github.com/Canner/WrenAI/issues/2518#issuecomment-4990639278) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+7. 💪 Opened PR [#2519](https://github.com/Canner/WrenAI/pull/2519) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+8. ❗ Opened issue [#2518](https://github.com/Canner/WrenAI/issues/2518) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+9. 💪 Opened PR [#2513](https://github.com/Canner/WrenAI/pull/2513) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+10. 🎉 Merged PR [#2502](https://github.com/Canner/WrenAI/pull/2502) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
 <!--END_SECTION:activity-->
 
 ---
