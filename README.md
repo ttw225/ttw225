@@ -71,16 +71,16 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2577](https://github.com/Canner/WrenAI/pull/2577) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-2. 💪 Opened PR [#2589](https://github.com/Canner/WrenAI/pull/2589) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-3. 🗣 Commented on [#135](https://github.com/ttw225/TaiwanTaxCalculator/pull/135#issuecomment-5077752109) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-4. 🗣 Commented on [#2504](https://github.com/Canner/WrenAI/issues/2504#issuecomment-5067548941) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-5. 💪 Opened PR [#2577](https://github.com/Canner/WrenAI/pull/2577) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-6. 💪 Opened PR [#2576](https://github.com/Canner/WrenAI/pull/2576) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-7. 🎉 Merged PR [#238](https://github.com/pycontw/pycontw-blog/pull/238) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-8. 💪 Opened PR [#238](https://github.com/pycontw/pycontw-blog/pull/238) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-9. 🗣 Commented on [#2504](https://github.com/Canner/WrenAI/issues/2504#issuecomment-5043937931) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
-10. 🎉 Merged PR [#2519](https://github.com/Canner/WrenAI/pull/2519) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+1. 🎉 Merged PR [#2589](https://github.com/Canner/WrenAI/pull/2589) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+2. 🎉 Merged PR [#2577](https://github.com/Canner/WrenAI/pull/2577) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+3. 💪 Opened PR [#2589](https://github.com/Canner/WrenAI/pull/2589) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+4. 🗣 Commented on [#135](https://github.com/ttw225/TaiwanTaxCalculator/pull/135#issuecomment-5077752109) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
+5. 🗣 Commented on [#2504](https://github.com/Canner/WrenAI/issues/2504#issuecomment-5067548941) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+6. 💪 Opened PR [#2577](https://github.com/Canner/WrenAI/pull/2577) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+7. 💪 Opened PR [#2576](https://github.com/Canner/WrenAI/pull/2576) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+8. 🎉 Merged PR [#238](https://github.com/pycontw/pycontw-blog/pull/238) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+9. 💪 Opened PR [#238](https://github.com/pycontw/pycontw-blog/pull/238) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+10. 🗣 Commented on [#2504](https://github.com/Canner/WrenAI/issues/2504#issuecomment-5043937931) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
 <!--END_SECTION:activity-->
 
 ---
