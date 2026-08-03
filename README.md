@@ -71,16 +71,16 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
-2. ℹ️ Assigned PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
-3. 💪 Opened PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
-4. 🎉 Merged PR [#242](https://github.com/pycontw/pycontw-blog/pull/242) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-5. 💪 Opened PR [#242](https://github.com/pycontw/pycontw-blog/pull/242) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-6. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5145130037) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-7. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5145126887) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-8. ℹ️ Assigned PR [#240](https://github.com/pycontw/pycontw-blog/pull/240) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-9. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5144850693) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-10. 🎉 Merged PR [#239](https://github.com/pycontw/pycontw-blog/pull/239) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+1. 🗣 Commented on [#2619](https://github.com/Canner/WrenAI/pull/2619#issuecomment-5168399881) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
+2. 🎉 Merged PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
+3. ℹ️ Assigned PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
+4. 💪 Opened PR [#20](https://github.com/ttw225/blog/pull/20) in [ttw225/blog](https://github.com/ttw225/blog)
+5. 🎉 Merged PR [#242](https://github.com/pycontw/pycontw-blog/pull/242) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+6. 💪 Opened PR [#242](https://github.com/pycontw/pycontw-blog/pull/242) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+7. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5145130037) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+8. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5145126887) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+9. ℹ️ Assigned PR [#240](https://github.com/pycontw/pycontw-blog/pull/240) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+10. 🗣 Commented on [#240](https://github.com/pycontw/pycontw-blog/pull/240#issuecomment-5144850693) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
 <!--END_SECTION:activity-->
 
 ---
