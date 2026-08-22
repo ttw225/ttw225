@@ -1,3 +1,9 @@
+## 0.2.1 (2026-08-22)
+
+### Fix
+
+- **ci**: pass issue fields through env vars
+
 ## 0.2.0 (2026-06-04)
 
 ### Feat
