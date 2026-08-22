@@ -28,7 +28,7 @@ jobs:
               --method POST \
               -H "Accept: application/vnd.github+json" \
               ${{ github.event.issue.reactions.url }} \
-              -f content=$val
+              -f content="$val"
           done
       - name: Create Comment with Runner ID
         run: |
@@ -53,11 +53,15 @@ jobs:
         with:
           python-version: "3.14"
       - name: Record Participants
+        env:
+          ISSUE_USER: ${{ github.event.issue.user.login }}
         run: |
-          echo ${{ github.event.issue.user.login }} >> cat_readme/participants.txt
+          echo "$ISSUE_USER" >> cat_readme/participants.txt
       - name: Run Build
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: |
-          python3 cat_readme/src/build_readme.py "${{ github.event.issue.title }}"
+          python3 cat_readme/src/build_readme.py "$ISSUE_TITLE"
           cat README.md
           cat cat_readme/status.json
       - name: Commit and push
