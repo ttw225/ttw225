@@ -97,17 +97,9 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/3-stats.svg" />
   <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/3-stats.svg" alt="Stats" width="340" />
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/4-productive-time.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/4-productive-time.svg" alt="Productive time" width="340" />
-</picture>
 </p>
 
 <p align="left">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/1-repos-per-language.svg" alt="Repos per language" width="340" />
-</picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/2-most-commit-language.svg" />
   <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/2-most-commit-language.svg" alt="Most commit language" width="340" />
