@@ -89,26 +89,23 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/0-profile-details.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/0-profile-details.svg" alt="Profile details" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/0-profile-details.svg" alt="Profile details" width="700" />
 </picture>
 
 <p align="left">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/3-stats.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/3-stats.svg" alt="Stats" width="340" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/3-stats.svg" alt="Stats" width="348" />
 </picture>
-</p>
-
-<p align="left">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/2-most-commit-language.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/2-most-commit-language.svg" alt="Most commit language" width="340" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/2-most-commit-language.svg" alt="Most commit language" width="348" />
 </picture>
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/snake-light.svg" alt="Contribution graph snake animation" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/snake-light.svg" alt="Contribution graph snake animation" width="700" />
 </picture>
 
 ---
