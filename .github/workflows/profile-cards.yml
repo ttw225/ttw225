@@ -10,14 +10,14 @@ concurrency:
   group: profile-cards
   cancel-in-progress: false
 
-permissions:
-  contents: write
-
 jobs:
+  # Third-party actions run here, where the token cannot write to the repo.
   generate:
-    name: Generate profile cards and contribution snake
+    name: Render cards and contribution snake
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    permissions:
+      contents: read
 
     steps:
       - uses: actions/checkout@v7
@@ -65,9 +65,31 @@ jobs:
             _publish/snake-light.svg?palette=github-light
             _publish/snake-dark.svg?palette=github-dark
 
-      # The output branch holds generated artifacts only. Each run replaces it
-      # with a single fresh commit so daily SVGs never accumulate in history.
-      - name: Publish to output branch
+      - name: Upload generated assets
+        uses: actions/upload-artifact@v7
+        with:
+          name: profile-cards
+          path: _publish
+          retention-days: 1
+
+  # The output branch holds generated artifacts only. Each run replaces it
+  # with a single fresh commit so daily SVGs never accumulate in history.
+  publish:
+    name: Publish to output branch
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download generated assets
+        uses: actions/download-artifact@v8
+        with:
+          name: profile-cards
+          path: _publish
+
+      - name: Push to output branch
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
