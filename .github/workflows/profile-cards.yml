@@ -5,6 +5,10 @@ on:
     # 04:17 Asia/Taipei — these figures move day-to-day, not minute-to-minute.
     - cron: '17 20 * * *'
   workflow_dispatch:
+  # TEMPORARY: smoke test for this branch. Do not merge.
+  push:
+    branches:
+      - fix/github-stats-cards
 
 concurrency:
   group: profile-cards
