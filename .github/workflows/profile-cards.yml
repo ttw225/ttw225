@@ -1,0 +1,104 @@
+name: Profile Cards
+
+on:
+  schedule:
+    # 04:17 Asia/Taipei — these figures move day-to-day, not minute-to-minute.
+    - cron: '17 20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: false
+
+jobs:
+  # Third-party actions run here, where the token cannot write to the repo.
+  generate:
+    name: Render cards and contribution snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v7
+
+      # The card generator emits one theme per invocation and wipes
+      # profile-summary-card-output/ at the start of each run, so every theme is
+      # copied into _publish/ before the next invocation overwrites it.
+      - name: Generate light theme cards
+        # vn7n24fzkq/github-profile-summary-cards v0.12.0
+        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8
+          AUTO_PUSH: false
+          THEME: github
+
+      - name: Stage light theme cards
+        run: |
+          mkdir -p _publish/cards
+          cp -R profile-summary-card-output/github _publish/cards/light
+
+      - name: Generate dark theme cards
+        # vn7n24fzkq/github-profile-summary-cards v0.12.0
+        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 8
+          AUTO_PUSH: false
+          THEME: github_dark
+
+      - name: Stage dark theme cards
+        run: |
+          cp -R profile-summary-card-output/github_dark _publish/cards/dark
+
+      - name: Generate contribution snake
+        # Platane/snk v3.5.0
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            _publish/snake-light.svg?palette=github-light
+            _publish/snake-dark.svg?palette=github-dark
+
+      - name: Upload generated assets
+        uses: actions/upload-artifact@v7
+        with:
+          name: profile-cards
+          path: _publish
+          retention-days: 1
+
+  # The output branch holds generated artifacts only. Each run replaces it
+  # with a single fresh commit so daily SVGs never accumulate in history.
+  publish:
+    name: Publish to output branch
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download generated assets
+        uses: actions/download-artifact@v8
+        with:
+          name: profile-cards
+          path: _publish
+
+      - name: Push to output branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          cd _publish
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "auto: regenerate profile cards and contribution snake"
+          git push -q --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

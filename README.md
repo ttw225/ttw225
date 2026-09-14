@@ -87,10 +87,26 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 
 ## ⭐ GitHub Stats
 
-[![ttw225's GitHub stats-Dark](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=dark#gh-dark-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-dark-mode-only)
-[![ttw225's GitHub stats-Light](https://github-readme-stats.vercel.app/api?username=ttw225&show_icons=true&theme=default#gh-light-mode-only)](https://github.com/anuraghazra/github-readme-stats#responsive-card-theme#gh-light-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/0-profile-details.svg" alt="Profile details" width="700" />
+</picture>
 
-[![ttw225's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ttw225&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/3-stats.svg" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/3-stats.svg" alt="Stats" width="348" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/dark/2-most-commit-language.svg" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/cards/light/2-most-commit-language.svg" alt="Most commit language" width="348" />
+</picture>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ttw225/ttw225/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/ttw225/ttw225/output/snake-light.svg" alt="Contribution graph snake animation" width="700" />
+</picture>
 
 ---
 
