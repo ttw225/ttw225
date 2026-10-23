@@ -71,9 +71,9 @@ An open-source web app for exploring Taiwan individual income tax filing decisio
 ## 🖥️ Recently Working On
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#263](https://github.com/pycontw/pycontw-blog/pull/263) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
-2. 💪 Opened PR [#147](https://github.com/ttw225/TaiwanTaxCalculator/pull/147) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
-3. 🎉 Merged PR [#56](https://github.com/ttw225/ttw225/pull/56) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
+1. 🎉 Merged PR [#263](https://github.com/pycontw/pycontw-blog/pull/263) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+2. 💪 Opened PR [#263](https://github.com/pycontw/pycontw-blog/pull/263) in [pycontw/pycontw-blog](https://github.com/pycontw/pycontw-blog)
+3. 💪 Opened PR [#147](https://github.com/ttw225/TaiwanTaxCalculator/pull/147) in [ttw225/TaiwanTaxCalculator](https://github.com/ttw225/TaiwanTaxCalculator)
 4. 💪 Opened PR [#2744](https://github.com/Canner/WrenAI/pull/2744) in [Canner/WrenAI](https://github.com/Canner/WrenAI)
 5. 💪 Opened PR [#56](https://github.com/ttw225/ttw225/pull/56) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
 6. 🎉 Merged PR [#55](https://github.com/ttw225/ttw225/pull/55) in [ttw225/ttw225](https://github.com/ttw225/ttw225)
