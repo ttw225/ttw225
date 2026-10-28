@@ -27,7 +27,7 @@ jobs:
       # copied into _publish/ before the next invocation overwrites it.
       - name: Generate light theme cards
         # vn7n24fzkq/github-profile-summary-cards v0.12.0
-        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
@@ -43,7 +43,7 @@ jobs:
 
       - name: Generate dark theme cards
         # vn7n24fzkq/github-profile-summary-cards v0.12.0
-        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549
+        uses: vn7n24fzkq/github-profile-summary-cards@7022eb6bd48de38b092f54110a8ff8185f2ac4a1
         env:
           GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN || github.token }}
         with:
